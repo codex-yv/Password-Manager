@@ -354,6 +354,8 @@ def errorr():
 win=Tk()
 win.geometry("800x500")
 win.title('Password Manager')
+win.minsize(800,500)
+win.maxsize(800,500)
 iconlogo='assets\\title.ico'
 win.iconbitmap(iconlogo)
 
